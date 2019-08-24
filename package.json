@@ -11,6 +11,10 @@
     "start": "node src/index.js",
     "lint": "eslint src/"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/w3cj/fortune-node"
+  },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
   "license": "MIT",
