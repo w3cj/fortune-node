@@ -1,0 +1,23 @@
+{
+  "name": "fortune-node",
+  "version": "1.0.0",
+  "description": "A CLI wrapper for adage, a js implementation of fortune (unix).",
+  "main": "src/index.js",
+  "bin": {
+    "fortune": "src/index.js",
+    "fortune-node": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "adage": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  }
+}
